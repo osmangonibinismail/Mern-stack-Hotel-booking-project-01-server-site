@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # .env
 .env
+.env.e2e
 
 node_modules
 dist
