@@ -9,6 +9,7 @@
     "e2e": "cross-env DOTENV_CONFIG_PATH=.env.e2e nodemon"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^2.8.0",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.5.0",
     "cookie-parser": "^1.4.6",
