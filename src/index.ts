@@ -25,6 +25,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 app.use(cors({
     origin: ["http://localhost:5173", "https://mern-stack-hotel-booking-project-01.vercel.app"],
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE", 
+    optionsSuccessStatus: 200,
     credentials: true,
 }))
 
